@@ -1,7 +1,7 @@
 /**
  * A class to represent a node in the map
  */
-package roadgraph;
+package roadgraph.solution;
 
 import java.util.HashSet;
 import java.util.Set;

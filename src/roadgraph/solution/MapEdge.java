@@ -1,7 +1,7 @@
 /**
  * 
  */
-package roadgraph;
+package roadgraph.solution;
 
 import java.util.LinkedList;
 import java.util.List;

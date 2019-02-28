@@ -5,7 +5,7 @@
  * Nodes in the graph are intersections between 
  *
  */
-package roadgraph;
+package roadgraph.solution;
 
 
 import java.util.HashMap;
@@ -311,7 +311,7 @@ public class MapGraph {
 	public static void main(String[] args)
 	{
 		System.out.print("Making a new map...");
-		MapGraph theMap = new MapGraph();
+		roadgraph.MapGraph theMap = new roadgraph.MapGraph();
 		System.out.print("DONE. \nLoading the map...");
 		GraphLoader.loadRoadMap("data/testdata/simpletest.map", theMap);
 		System.out.println("DONE.");
